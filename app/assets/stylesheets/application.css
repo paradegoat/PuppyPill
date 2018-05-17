@@ -21,7 +21,7 @@
  body, html{
  	height: 100%;
  	width:100%;
-  background-color: #eaf9f6;
+  background-color: #fff;
  }
  body{
  	font-size: 1rem;
@@ -153,54 +153,38 @@ i.box-circle-solid{
 
 /* ========== Top Navigation ========== */
 .top-nav {
+  background-color: #b3f9f7;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     height: 80px;
-    transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
 }
-.top-nav .navbar-nav li .nav-link {
+.top-nav, .navbar-nav li, .nav-link a {
     color: #fff;
     font-size: 14px;
     padding:29px 15px;
     font-weight: 600;
+    text-decoration: none;
     text-transform: uppercase;
-    transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
 }
-.top-nav li a.nav-link:hover, .top-nav .nav-item.active a.nav-link{
-    border-bottom: 3px solid #f1c539;
+.nav-link:hover{
+    border-bottom: 1px solid #f1c539;
     color: #f1c539;
-    transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
+    transition: 1.5s ease-in;
+	-webkit-transition: 1.5s ease-in;
+	-moz-transition: 1.5s ease-in;
 }
-.top-nav .navbar-brand{
+  .navbar-brand{
 	font-size: 28px;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
-.top-nav.light-header{
-	height: 60px;
-	background: #fff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.23);
-	transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
-}
-.top-nav.light-header .navbar-brand{
-	color: #212121;
-}
-.top-nav.light-header .navbar-nav li .nav-link {
-    color: #212121;
-    padding: 19px 15px;
-    transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  padding: 2vw 1vw;
 }
 
-.top-nav.light-header li a.nav-link:hover, .top-nav.light-header .nav-item.active a.nav-link{
+.nav-link a:hover{
 	border-bottom: 3px solid #f1c539;
     color: #f1c539;
     transition: 0.5s ease-in;
