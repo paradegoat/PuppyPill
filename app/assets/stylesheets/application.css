@@ -364,3 +364,41 @@ service-3 .service-box .why-us-content h4 {
   background-repeat: no-repeat;
   border-radius: 100%;
 }
+
+
+/* ========== About Us ========== */
+
+.about-us-section {
+    padding: 8vw 0;
+}
+
+.about-us-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.about-us-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+
+.about-us-text {
+    color: #606060;
+    font-size: 1.25rem;
+}
+
+.about-image{
+  width: 100%;
+  border-radius: 100vw;
+}
