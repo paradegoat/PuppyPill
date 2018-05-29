@@ -48,7 +48,7 @@ h6{
 	background-color: #00BED7;
 	border-color: #00BED7;
 }
-.btn-capsul{
+.btn-capsule{
 	border-radius: 50px;
 }
 i.box-circle-outline{
@@ -203,8 +203,9 @@ i.box-circle-solid{
 	height: 100%;
 }
 
-.intro  .carousel-caption{
-	align-items: bottom
+.carousel-caption a{
+  color: white;
+  text-decoration: none;
 }
 
 
