@@ -1,29 +1,16 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+ @import "bootstrap";
+ @import "jquery-ui";
  @import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700');
  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 
- body, html{
+body, html{
  	height: 100%;
  	width:100%;
   background-color: #fff;
  }
- body{
+body{
  	font-size: 1rem;
  	font-family: 'Source Sans Pro', sans-serif;
  }
@@ -153,9 +140,10 @@ i.box-circle-solid{
 
 /* ========== Navigation ========== */
 .top-nav {
-  background-color: #f1c539;
+    background-color: #f1c539;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     height: 80px;
+    position: sticky;
 }
 .top-nav, .navbar-nav li, .nav-link a {
     color: #fff;
@@ -207,17 +195,16 @@ i.box-circle-solid{
 	z-index: 1;
 }
 
-
 .intro h2{
 	font-weight: 700;
 }
 
 .intro .carousel-item{
-	height: 100vh;
+	height: 100%;
 }
 
 .intro  .carousel-caption{
-	top:25%;
+	align-items: bottom
 }
 
 
