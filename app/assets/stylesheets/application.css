@@ -46,11 +46,11 @@ h6{
 .text-primary{
 	color: #f1c539!important;
 }
+
 .btn{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	font-weight: 600;
-
 }
 .btn-primary{
 	background-color: #f1c539;
@@ -166,8 +166,8 @@ i.box-circle-solid{
     text-transform: uppercase;
 }
 .nav-link:hover{
-    border-bottom: 1px solid #f1c539;
-    color: #f1c539;
+    border-bottom: 1px solid #00BED7;
+    color: #00BED7;
     transition: 1.5s ease-in;
 	-webkit-transition: 1.5s ease-in;
 	-moz-transition: 1.5s ease-in;
@@ -177,7 +177,9 @@ i.box-circle-solid{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
-
+.navbar-brand:hover{
+  color: #00BED7;
+}
 .nav-link a {
   text-decoration: none;
   color: white;
@@ -185,11 +187,11 @@ i.box-circle-solid{
 }
 
 .nav-link a:hover{
-	border-bottom: 3px solid #f1c539;
-    color: #f1c539;
-    transition: 0.5s ease-in;
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
+	border-bottom: 3px solid #00BED7;
+    color: #00BED7;
+    transition: 1.5s ease-in;
+	-webkit-transition: 1.5s ease-in;
+	-moz-transition: 1.5s ease-in;
 }
 
 
@@ -317,6 +319,7 @@ service-3 .service-box .why-us-content h4 {
 	position: relative;
 	z-index: 1;
 }
+
 .info-section h2{
 	font-weight: 700;
 	font-size: 2.5rem;
@@ -325,31 +328,39 @@ service-3 .service-box .why-us-content h4 {
 .content-half{
     color:#fff;
     padding-top: 2vw;
-
 }
+
 .content-half ul{
     padding: 1vw;
     list-style:none;
     padding-left: 6vw;
 }
+
 .content-half ul li{
     margin:15px 0;
     float:left;
     width:100%;
 }
+
 .content-half ul li i{
     float:left;
     font-size:40px;
     padding-top:10px;
     padding-bottom:10px;
 }
+
 .list-content{
     float:left;
     margin-left:2vw;
 }
+
 .content-half ul li strong{
     font-size:19px;
     font-weight:700;
+}
+
+.content-half ul li:hover{
+  color:#00BED7;
 }
 
 .pill-icons{
@@ -401,4 +412,57 @@ service-3 .service-box .why-us-content h4 {
 .about-image{
   width: 100%;
   border-radius: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  padding-top: 2vw;
+  background: #f1c539;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+.social-links li{
+	padding-top: 1vw;
+}
+
+.social-links li a i {
+  margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.social-links li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+
+#footer a:hover{
+  color:#00BED7;
+  text-decoration: none;
+}
+
+.social-links li a{
+	color:#ffffff;
+}
+
+#footer ul.social-links li a:hover{
+	color:#00BED7;
 }
