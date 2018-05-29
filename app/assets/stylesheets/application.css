@@ -36,7 +36,7 @@ h6{
 
 .btn{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
+	font-size: 100%;
 	font-weight: 600;
 }
 .btn-primary{
@@ -412,12 +412,16 @@ service-3 .service-box .why-us-content h4 {
 
 
 
-
+/* ========== Footer========== */
 
 
 #footer {
+  /* z-index: 3; */
   padding-top: 2vw;
   background: #f1c539;
+  position: static;
+  width: 100%;
+  bottom: 0;
 }
 
 #footer a {
@@ -452,4 +456,12 @@ service-3 .service-box .why-us-content h4 {
 
 #footer ul.social-links li a:hover{
 	color:#00BED7;
+}
+
+/* ========== Order page ========== */
+
+.order-sheet {
+  height: 50vh;
+  /* border: 1px solid blue; */
+  margin: 10vh 0vh;
 }
