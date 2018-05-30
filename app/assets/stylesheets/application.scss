@@ -210,8 +210,9 @@ i.box-circle-solid{
   text-decoration: none;
 }
 
-
-
+.carousel-caption{
+  bottom: 8vw;
+}
 
 /* ========== Why Us ========== */
 
@@ -506,4 +507,10 @@ service-3 .service-box .why-us-content h4 {
     left: 0;
     position: absolute;
     width: 54px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption{
+    bottom: -5vw;
+  }
 }
