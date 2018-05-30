@@ -142,14 +142,12 @@ i.box-circle-solid{
 .top-nav {
     background-color: #f1c539;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    height: 80px;
-    position: sticky;
 }
 
 .top-nav, .navbar-nav li, .nav-link a {
     color: #fff;
     font-size: 14px;
-    padding:29px 15px;
+    padding:15px 15px;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -176,7 +174,7 @@ i.box-circle-solid{
 }
 
 .nav-link a:hover{
-	border-bottom: 3px solid #00BED7;
+	border-bottom: 1px solid #00BED7;
     color: #00BED7;
     transition: 1.5s ease-in;
 	-webkit-transition: 1.5s ease-in;
@@ -184,9 +182,12 @@ i.box-circle-solid{
 }
 
 
-
-
 /* ========== Carousel ========== */
+
+.carousel-container{
+  padding: 0;
+}
+
 .intro{
 	width:100%;
 	display: flex;
@@ -211,7 +212,10 @@ i.box-circle-solid{
 
 
 
-/*  why us seciton*/
+
+/* ========== Why Us ========== */
+
+
 .why-us-section {
     padding: 82px 0 82px;
 }
