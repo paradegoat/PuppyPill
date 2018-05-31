@@ -39,6 +39,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
-
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+gem 'font-awesome-sass', '~> 4.7.0'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
 ruby '2.4.0'
