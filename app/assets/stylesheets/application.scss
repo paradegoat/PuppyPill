@@ -291,7 +291,7 @@ service-3 .service-box .why-us-content h4 {
 
 .why-choose-img {
   height: 30vw;
-  background: url('stock-dog.jpg');
+  background-image: image-url('stock-dog.jpg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -363,7 +363,7 @@ service-3 .service-box .why-us-content h4 {
 }
 
 .pill-stink{
-  background: url('pill-stink.gif');
+  background-image: image-url('pill-stink.gif');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
